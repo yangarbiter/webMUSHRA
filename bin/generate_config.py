@@ -164,7 +164,7 @@ def main():
     config["pages"] += [make_finish_page()]
 
     with open(args.outpath, "w") as f:
-        yaml.safe_dump(config, f, allow_unicode=True, encoding="utf-8")
+        yaml.safe_dump(config, f, allow_unicode=True, encoding="utf-8", line_break=True)
 
 
 if __name__ == "__main__":
