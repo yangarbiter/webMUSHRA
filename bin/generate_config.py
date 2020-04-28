@@ -13,35 +13,35 @@ def response_template():
     return [
         {
             "value": 1,
-            "label": "1: とても不自然",
+            "label": "1: Bad",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 2,
-            "label": "2: やや不自然",
+            "label": "2: Poor",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 3,
-            "label": "3: 普通",
+            "label": "3: Fair",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 4,
-            "label": "4: やや自然",
+            "label": "4: Good",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 5,
-            "label": "5: とても自然",
+            "label": "5: Excellent",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
@@ -76,6 +76,22 @@ def make_first_page():
                    "<br>[Next]ボタンを押して次へ進んでください。",
         "id": "welcome",
         "name": "Audio naturalness evaluation",
+    }
+
+
+def make_explanation_page():
+    return {
+        "type": "generic",
+        "content": "それでは、評価を始めます。<br>"
+                   "提示された音声を聞いて、その自然性を5段階で評価してください。<br>"
+                   "ここで自然性とは、<strong>音声がどれだけ人間の肉声に近いか</strong>を表し、<strong>人間の肉声が5</strong>に相当します。<br>"
+                   "<br>"
+                   "また、ここからはブラウザを閉じたり更新ボタンを押してしまうと、途中の結果が失われてしまいます。<br>"
+                   "そのため、評価が最後まで終了するまで、その様な行動を取らない様にご注意ください。<br>"
+                   "<br>"
+                   "[Next]ボタンを押して次へ進んでください。",
+        "id": "explanation",
+        "name": "Explanation",
     }
 
 
@@ -159,6 +175,7 @@ def main():
     config["pages"] += [make_first_page()]
     if args.sample_audio_path is not None:
         config["pages"] += [make_volume_page(args.sample_audio_path)]
+    config["pages"] += [make_explanation_page()]
     for idx, wav_path in enumerate(wav_path_list, 1):
         config["pages"] += [make_page(idx, len(wav_path_list), wav_path)]
     config["pages"] += [make_finish_page()]
