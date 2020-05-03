@@ -5,6 +5,7 @@ import argparse
 import fnmatch
 import math
 import os
+import random
 import shutil
 
 
@@ -32,9 +33,10 @@ def find_files(root_dir, query="*.wav", include_root_dir=True):
 
 def main():
     # We assume that <root_wav_dir>/<model_or_method_name_dir>/<wav_files>
+    seed = 773
     num_wavs_in_each_subset = 20
-    outdir = "configs/resources/jsut_pickup_subset"
-    root_wav_dir = "configs/resources/jsut_pickup"
+    outdir = "configs/resources/jsut_v2_subset"
+    root_wav_dir = "configs/resources/jsut_v2"
     wav_filenames = sorted(find_files(root_wav_dir, include_root_dir=False))
     model_dirs = sorted(list(set([os.path.dirname(f) for f in wav_filenames])))
 
@@ -51,12 +53,15 @@ def main():
 
     # make each subset
     offset = 0
+    idxs = list(range(num_model_wavs))
+    random.seed(seed)
+    random.shuffle(idxs)
     num_subsets = math.ceil(num_model_wavs / num_wavs_in_each_subset)
-    for idx in range(num_subsets):
-        print(f"making subset {idx}...")
-        subset_outdir = f"{outdir}/subset_{idx}"
+    for i in range(num_subsets):
+        print(f"making subset {i}...")
+        subset_outdir = f"{outdir}/subset_{i}"
         for model, wavs in wav_filename_dict.items():
-            subset_wavs = wavs[offset: offset + num_wavs_in_each_subset]
+            subset_wavs = [wavs[j] for j in idxs[offset: offset + num_wavs_in_each_subset]]
             subset_model_outdir = f"{subset_outdir}/{model}"
             os.makedirs(subset_model_outdir, exist_ok=True)
             for wav in subset_wavs:
