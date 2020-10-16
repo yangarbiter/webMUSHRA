@@ -33,10 +33,12 @@ def find_files(root_dir, query="*.wav", include_root_dir=True):
 
 def main():
     # We assume that <root_wav_dir>/<model_or_method_name_dir>/<wav_files>
-    seed = 773
-    num_wavs_in_each_subset = 20
-    outdir = "configs/resources/jsut_v2_subset"
-    root_wav_dir = "configs/resources/jsut_v2"
+    seed = 777
+    num_wavs_in_each_subset = 5
+    # outdir = "configs/resources/etrab_stereo_subset"
+    # root_wav_dir = "configs/resources/etrab_stereo"
+    outdir = "configs/resources/etrab_stereo_concat_subset"
+    root_wav_dir = "configs/resources/etrab_stereo_concat"
     wav_filenames = sorted(find_files(root_wav_dir, include_root_dir=False))
     model_dirs = sorted(list(set([os.path.dirname(f) for f in wav_filenames])))
 
@@ -69,6 +71,7 @@ def main():
         offset += num_wavs_in_each_subset
 
     print("successfully finshed making subsets.")
+
 
 if __name__ == "__main__":
     main()
