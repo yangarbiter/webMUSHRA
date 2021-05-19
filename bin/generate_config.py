@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""Generate config with Japanese instruction."""
+
 import argparse
 import fnmatch
 import os
