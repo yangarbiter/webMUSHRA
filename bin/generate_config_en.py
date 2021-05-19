@@ -94,7 +94,9 @@ def make_explanation_page():
                    "<br>"
                    "After that, we provide the sample of real-human speech as a reference."
                    "<br>"
-                   "DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION."
+                   "<br>"
+                   "<strong>DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION.</strong>"
+                   "<br>"
                    "<br>"
                    "Please click [Next] button.",
         "id": "explanation",
@@ -106,9 +108,9 @@ def make_volume_page(sample_wav_path):
     volume_page = {
         "type": "volume",
         "content": "This is a sample of real-human speech.<br>"
-                   "Listen to the sample and adjust to your volume.<br>"
+                   "Listen to the sample and adjust your volume.<br>"
                    "<br>"
-                   "DURING THE EVALUATION, PLEASE USE HEADPHONES AND WORK IN A QUIET ROOM.",
+                   "<strong>DURING THE EVALUATION, PLEASE USE HEADPHONES AND WORK IN A QUIET ROOM.</strong>",
         "id": "Volume check",
         "stimulus": sample_wav_path,
         "defaultVolume": 1.0,
@@ -120,7 +122,7 @@ def make_finish_page():
     return {
         "type": "finish",
         "content": "The evaluation was finished.<br>"
-                   "Please enter your WORKER ID in Amazon mechanical turk. <br>"
+                   "Please enter your <strong>WORKER ID</strong> in Amazon mechanical turk. <br>"
                    "Please click [send Results] button.",
         "id": "finish",
         "name": "Finshed evaluation",
@@ -130,7 +132,7 @@ def make_finish_page():
         "questionnaire": [
             {
                 "type": "text",
-                "label": "Name",
+                "label": "worker id",
                 "name": "name",
                 "optional": False,
             },
@@ -197,6 +199,7 @@ def make_similarity_first_page():
     return {
         "type": "generic",
         "content": "Next, speaker similarity evaluation."
+                   "<br>"
                    "Please click [Next] button.",
         "id": "welcome",
         "name": "Speaker similarity evaluation",
@@ -209,7 +212,9 @@ def make_similarity_explanation_page():
         "content": "Listen to continuous two samples and evaluate whether the "
                    "speakers of two samples are same or not."
                    "<br>"
-                   "DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION."
+                   "<br>"
+                   "<strong>DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION.</strong>"
+                   "<br>"
                    "<br>"
                    "Please click [Next] button.",
         "id": "explanation",
