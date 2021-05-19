@@ -32,13 +32,22 @@ def find_files(root_dir, query="*.wav", include_root_dir=True):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--seed", default=777, type=int)
+    parser.add_argument("--num_wavs_in_each_subset", default=5, type=int)
+    parser.add_argument("root_wav_dir", type=str)
+    parser.add_argument("outdir", type=str)
+    args = parser.parse_args()
+
     # We assume that <root_wav_dir>/<model_or_method_name_dir>/<wav_files>
-    seed = 777
-    num_wavs_in_each_subset = 5
-    # outdir = "configs/resources/etrab_stereo_subset"
-    # root_wav_dir = "configs/resources/etrab_stereo"
-    outdir = "configs/resources/etrab_stereo_concat_subset"
-    root_wav_dir = "configs/resources/etrab_stereo_concat"
+    # E.g.
+    #   root_wav_dir = "configs/resources/samples_stereo"
+    #   outdir = "configs/resources/samples_stereo_subset"
+    seed = args.seed
+    num_wavs_in_each_subset = args.num_wavs_in_each_subset
+    outdir = args.outdir
+    root_wav_dir = args.root_wav_dir
+
     wav_filenames = sorted(find_files(root_wav_dir, include_root_dir=False))
     model_dirs = sorted(list(set([os.path.dirname(f) for f in wav_filenames])))
 
