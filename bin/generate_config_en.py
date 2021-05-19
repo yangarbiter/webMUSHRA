@@ -94,8 +94,7 @@ def make_explanation_page():
                    "<br>"
                    "After that, we provide the sample of real-human speech as a reference."
                    "<br>"
-                   "DO NOT CLOSE THIS PAGE AND DO NOT CLICK UPDATE BUTTON OF BROWSER "
-                   "UNTIL THE END OF THIS EVALUATION."
+                   "DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION."
                    "<br>"
                    "Please click [Next] button.",
         "id": "explanation",
@@ -210,8 +209,7 @@ def make_similarity_explanation_page():
         "content": "Listen to continuous two samples and evaluate whether the "
                    "speakers of two samples are same or not."
                    "<br>"
-                   "DO NOT CLOSE THIS PAGE AND DO NOT CLICK UPDATE BUTTON OF BROWSER "
-                   "UNTIL THE END OF THIS EVALUATION."
+                   "DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION."
                    "<br>"
                    "Please click [Next] button.",
         "id": "explanation",
