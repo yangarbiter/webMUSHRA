@@ -34,7 +34,7 @@ def find_files(root_dir, query="*.wav", include_root_dir=True):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--beep_wav", default="configs/resources/beep_stereo_pad.wav", type=str)
+    parser.add_argument("--beep_wav", default="configs/resources/beep_stereo_pad_8khz.wav", type=str)
     parser.add_argument("--seed", default=777, type=int)
     parser.add_argument("--gt_wavdir", type=str, required=True)
     parser.add_argument("--conv_wavdirs", nargs="+", type=str, required=True)
@@ -45,7 +45,7 @@ def main():
     gt_wavdir = args.gt_wavdir
     root_outdir = args.root_outdir
     beep_wav = args.beep_wav
-    conv_wavdirs = args.root_outdir
+    conv_wavdirs = args.conv_wavdirs
 
     for conv_wavdir in conv_wavdirs:
         outdir = f"{root_outdir}/{os.path.basename(conv_wavdir)}"
