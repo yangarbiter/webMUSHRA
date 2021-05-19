@@ -33,26 +33,19 @@ def find_files(root_dir, query="*.wav", include_root_dir=True):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--beep_wav", default="configs/resources/beep_stereo_pad.wav", type=str)
+    parser.add_argument("--seed", default=777, type=int)
+    parser.add_argument("--gt_wavdir", type=int)
+    parser.add_argument("--conv_wavdirs", nargs="+", type=int)
+    parser.add_argument("root_outdir", type=int)
+    args = parser.parse_args()
+
     # We assume that <root_wav_dir>/<model_or_method_name_dir>/<wav_files>
-    seed = 777
-    # gt_wavdir = "configs/resources/etrab_stereo_dev/female_gt_dev"
-    # root_outdir = "configs/resources/etrab_stereo_concat"
-    # beep_wav = "configs/resources/beep_stereo_pad.wav"
-    # conv_wavdirs = [
-    #     "configs/resources/etrab_stereo/conformer_fastspeech2_m2f",
-    #     "configs/resources/etrab_stereo/fastspeech2_m2f",
-    #     "configs/resources/etrab_stereo/tacotron2_m2f",
-    #     "configs/resources/etrab_stereo/transformer_m2f",
-    # ]
-    gt_wavdir = "configs/resources/etrab_stereo_dev/male_gt_dev"
-    root_outdir = "configs/resources/etrab_stereo_concat"
-    beep_wav = "configs/resources/beep_stereo_pad.wav"
-    conv_wavdirs = [
-        "configs/resources/etrab_stereo/conformer_fastspeech2_f2m",
-        "configs/resources/etrab_stereo/fastspeech2_f2m",
-        "configs/resources/etrab_stereo/tacotron2_f2m",
-        "configs/resources/etrab_stereo/transformer_f2m",
-    ]
+    gt_wavdir = args.gt_wavdir
+    root_outdir = args.root_outdir
+    beep_wav = args.beep_wav
+    conv_wavdirs = args.root_outdir
 
     for conv_wavdir in conv_wavdirs:
         outdir = f"{root_outdir}/{os.path.basename(conv_wavdir)}"
