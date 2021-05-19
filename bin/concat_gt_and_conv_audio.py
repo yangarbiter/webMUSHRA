@@ -36,9 +36,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--beep_wav", default="configs/resources/beep_stereo_pad.wav", type=str)
     parser.add_argument("--seed", default=777, type=int)
-    parser.add_argument("--gt_wavdir", type=str)
-    parser.add_argument("--conv_wavdirs", nargs="+", type=str)
-    parser.add_argument("root_outdir", type=str)
+    parser.add_argument("--gt_wavdir", type=str, required=True)
+    parser.add_argument("--conv_wavdirs", nargs="+", type=str, required=True)
+    parser.add_argument("--root_outdir", type=str, required=True)
     args = parser.parse_args()
 
     # We assume that <root_wav_dir>/<model_or_method_name_dir>/<wav_files>
