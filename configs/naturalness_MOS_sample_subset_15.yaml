@@ -63,11 +63,11 @@ pages:
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia_0053.wav
+  id: method_a_nvidia2_0053.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (2/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0053.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0053.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -95,7 +95,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0053.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0053.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -139,11 +139,11 @@ pages:
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia_0039.wav
+  id: method_a_nvidia2_0039.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (4/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0039.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0039.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -171,7 +171,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0039.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0039.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -215,11 +215,11 @@ pages:
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia_0061.wav
+  id: method_a_nvidia2_0061.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (6/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0061.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0061.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -247,17 +247,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0061.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0061.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia_0000.wav
+  id: method_a_nvidia2_0000.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (7/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0000.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0000.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -285,7 +285,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0000.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0000.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -329,11 +329,11 @@ pages:
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia_0058.wav
+  id: method_a_nvidia2_0058.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (9/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0058.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0058.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -361,7 +361,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0058.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0058.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -633,11 +633,11 @@ pages:
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia_0020.wav
+  id: method_a_nvidia2_0020.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (17/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0020.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0020.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -665,7 +665,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia_0020.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_15/method_a/nvidia2_0020.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness

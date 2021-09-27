@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cp ../torchaudio-benchmark/tts-subjective/audio_samples/original/* configs/resources/samples/method_a/
-cp ../torchaudio-benchmark/tts-subjective/audio_samples/nvidia/* configs/resources/samples/method_a/
+cp ../torchaudio-benchmark/tts-subjective/audio_samples/nvidia2/* configs/resources/samples/method_a/
 cp ../torchaudio-benchmark/tts-subjective/audio_samples/torchaudio/* configs/resources/samples/method_a/
 cp ../torchaudio-benchmark/tts-subjective/audio_samples/tacotron2waveglow/* configs/resources/samples/method_a/
 
