@@ -55,11 +55,13 @@ def main():
     prev_num_model_wavs = None
     wav_filename_dict = {}
     for model in model_dirs:
+        if model == '':
+            continue
         wav_filename_dict[model] = sorted([f for f in wav_filenames if f"{model}" == os.path.dirname(f)])
         num_model_wavs = len(wav_filename_dict[model])
         print(f"{model} has {num_model_wavs} wav files.")
         if prev_num_model_wavs is not None:
-            assert prev_num_model_wavs == num_model_wavs, "{model} has different number of wavfiles."
+            assert prev_num_model_wavs == num_model_wavs, f"{model} has different number of wavfiles."
         prev_num_model_wavs = num_model_wavs
 
     # make each subset

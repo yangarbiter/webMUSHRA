@@ -15,35 +15,35 @@ def response_template():
     return [
         {
             "value": 1,
-            "label": "1: Bad",
+            "label": "1: Unlike human",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 2,
-            "label": "2: Poor",
+            "label": "2",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 3,
-            "label": "3: Fair",
+            "label": "3",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 4,
-            "label": "4: Good",
+            "label": "4",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
         },
         {
             "value": 5,
-            "label": "5: Excellent",
+            "label": "5: Like human",
             "img": "configs/resources/images/star_off.png",
             "imgSelected": "configs/resources/images/star_on.png",
             "imgHigherResponseSelected": "configs/resources/images/star_on.png",
@@ -59,6 +59,8 @@ def make_page(idx, total_idx, wav_path):
         "type": "likert_single_stimulus",
         "id": wav_id,
         "content": "Listen to a given sample and rate the naturalness with 5-point scale."
+                   "<br>"
+                   "The content of the speech should not effect the score."
                    "<br>"
                    "Note that the naturalness means how the sample sound like real-human speech "
                    "and real-human speech is corresponding to 5.",
@@ -92,8 +94,11 @@ def make_explanation_page():
                    "Note that the naturalness means how the sample sound like real-human speech "
                    "and real-human speech is corresponding to 5."
                    "<br>"
-                   "After that, we provide the sample of real-human speech as a reference."
+                   "You will be asked to evalutate 25 audio samples."
                    "<br>"
+                   "In the next page, we will ask you to adjust your volume to a comfortable level."
+                   "<br>"
+                   "The evaluation will start the page after next page."
                    "<br>"
                    "<strong>DO NOT CLOSE AND RELOAD THIS PAGE UNTIL THE END OF THIS EVALUATION.</strong>"
                    "<br>"

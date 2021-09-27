@@ -1,0 +1,991 @@
+bufferSize: 2048
+pages:
+- content: Welcome to audio naturalness evaluation.<br>Please click [Next] button.
+  id: welcome
+  name: Audio naturalness evaluation
+  type: generic
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>Note
+    that the naturalness means how the sample sound like real-human speech and real-human
+    speech is corresponding to 5.<br>You will be asked to evalutate 25 audio samples.<br>In
+    the next page, we will ask you to adjust your volume to a comfortable level.<br>The
+    evaluation will start the page after next page.<br><strong>DO NOT CLOSE AND RELOAD
+    THIS PAGE UNTIL THE END OF THIS EVALUATION.</strong><br><br>Please click [Next]
+    button.
+  id: explanation
+  name: Explanation
+  type: generic
+- content: This is a sample of real-human speech.<br>Listen to the sample and adjust
+    your volume.<br><br><strong>DURING THE EVALUATION, PLEASE USE HEADPHONES AND WORK
+    IN A QUIET ROOM.</strong>
+  defaultVolume: 1.0
+  id: Volume check
+  stimulus: ./configs/resources/samples_stereo/sample.wav
+  type: volume
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_torchaudio_0052.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (1/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0052.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0052.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_nvidia_0074.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (2/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0074.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0074.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_torchaudio_0009.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (3/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0009.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0009.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_nvidia_0062.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (4/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0062.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0062.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0098.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (5/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0098.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0098.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_nvidia_0099.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (6/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0099.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0099.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_nvidia_0009.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (7/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0009.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0009.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0046.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (8/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0046.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0046.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_nvidia_0097.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (9/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0097.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0097.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0062.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (10/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0062.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0062.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0001.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (11/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0001.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0001.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0057.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (12/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0057.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0057.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0023.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (13/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0023.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0023.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0065.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (14/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0065.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0065.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0038.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (15/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0038.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0038.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_torchaudio_0017.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (16/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0017.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0017.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_nvidia_0055.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (17/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0055.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/nvidia_0055.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0051.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (18/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0051.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0051.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0028.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (19/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0028.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0028.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0021.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (20/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0021.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0021.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0053.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (21/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0053.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0053.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0060.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (22/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0060.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0060.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_torchaudio_0020.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (23/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0020.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/torchaudio_0020.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_tacotron2waveglow_0034.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (24/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0034.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/tacotron2waveglow_0034.wav
+  type: likert_single_stimulus
+- content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
+    content of the speech should not effect the score.<br>Note that the naturalness
+    means how the sample sound like real-human speech and real-human speech is corresponding
+    to 5.
+  id: method_a_original_0013.wav
+  mustPlayback: true
+  mustRate: true
+  name: MOS on Naturalness (25/25)
+  reference: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0013.wav
+  response:
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '1: Unlike human'
+    value: 1
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '2'
+    value: 2
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '3'
+    value: 3
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '4'
+    value: 4
+  - img: configs/resources/images/star_off.png
+    imgHigherResponseSelected: configs/resources/images/star_on.png
+    imgSelected: configs/resources/images/star_on.png
+    label: '5: Like human'
+    value: 5
+  stimuli:
+    C1: ./configs/resources/samples_stereo_subset/subset_7/method_a/original_0013.wav
+  type: likert_single_stimulus
+- content: The evaluation was finished.<br>Please enter your <strong>WORKER ID</strong>
+    in Amazon mechanical turk. <br>Please click [send Results] button.
+  id: finish
+  name: Finshed evaluation
+  popupContent: The results were recorded. Thank you for your cooperation.
+  questionnaire:
+  - label: worker id
+    name: name
+    optional: false
+    type: text
+  showResults: false
+  type: finish
+  writeResults: true
+remoteService: service/write.php
+showButtonPreviousPage: false
+stopOnErrors: true
+testId: subjective_evalaution
+testname: Subjective evaluation
