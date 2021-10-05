@@ -55,7 +55,8 @@ def make_page(idx, total_idx, wav_path):
     wav_dir_id = os.path.basename(os.path.dirname(wav_path))
     wav_file_id = os.path.basename(wav_path)
     wav_id = f"{wav_dir_id}_{wav_file_id}"
-    web_wav_path = "https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/" + "/".join(wav_path.split("/")[4:])
+    #web_wav_path = "https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/" + "/".join(wav_path.split("/")[4:])
+    web_wav_path = wav_path
     return {
         "type": "likert_single_stimulus",
         "id": wav_id,

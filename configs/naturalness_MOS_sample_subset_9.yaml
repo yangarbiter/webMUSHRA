@@ -25,11 +25,11 @@ pages:
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_torchaudio_0075.wav
+  id: method_a_vocoder_wavernn_nvidia_0075.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (1/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/torchaudio_0075.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0075.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -57,17 +57,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/torchaudio_0075.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0075.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0069.wav
+  id: method_a_original_0069.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (2/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0069.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0069.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -95,17 +95,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0069.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0069.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_torchaudio_0021.wav
+  id: method_a_vocoder_wavernn_nvidia_0021.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (3/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/torchaudio_0021.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0021.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -133,17 +133,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/torchaudio_0021.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0021.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0016.wav
+  id: method_a_original_0016.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (4/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0016.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0016.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -171,17 +171,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0016.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0016.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0000.wav
+  id: method_a_vocoder_waveglow_0050.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (5/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0000.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0050.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -209,17 +209,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0000.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0050.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0084.wav
+  id: method_a_original_0084.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (6/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0084.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0084.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -247,17 +247,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0084.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0084.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0007.wav
+  id: method_a_original_0007.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (7/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0007.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0007.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -285,17 +285,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0007.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0007.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0023.wav
+  id: method_a_vocoder_waveglow_0073.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (8/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0023.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0073.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -323,17 +323,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0023.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0073.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0071.wav
+  id: method_a_original_0071.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (9/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0071.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0071.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -361,17 +361,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0071.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0071.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_original_0090.wav
+  id: method_a_vocoder_waveglow_0040.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (10/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0090.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0040.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -399,17 +399,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/original_0090.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0040.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0092.wav
+  id: method_a_original_0092.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (11/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0092.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0092.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -437,17 +437,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0092.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0092.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0068.wav
+  id: method_a_vocoder_wavernn_fatchord_0018.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (12/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0068.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_fatchord_0018.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -475,17 +475,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0068.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_fatchord_0018.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_original_0032.wav
+  id: method_a_vocoder_fatchord_0032.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (13/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0032.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_fatchord_0032.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -513,17 +513,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/original_0032.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_fatchord_0032.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_torchaudio_0004.wav
+  id: method_a_vocoder_wavernn_nvidia_0004.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (14/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/torchaudio_0004.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0004.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -551,17 +551,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/torchaudio_0004.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0004.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0011.wav
+  id: method_a_vocoder_waveglow_0061.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (15/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0011.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0061.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -589,17 +589,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0011.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0061.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_torchaudio_0033.wav
+  id: method_a_vocoder_wavernn_nvidia_0033.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (16/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/torchaudio_0033.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0033.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -627,17 +627,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/torchaudio_0033.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0033.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_nvidia2_0015.wav
+  id: method_a_original_0015.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (17/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/nvidia2_0015.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0015.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -665,17 +665,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/nvidia2_0015.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0015.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0043.wav
+  id: method_a_vocoder_waveglow_0093.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (18/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0043.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0093.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -703,17 +703,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0043.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0093.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_original_0057.wav
+  id: method_a_vocoder_waveglow_0007.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (19/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0057.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0007.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -741,17 +741,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/original_0057.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0007.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_original_0020.wav
+  id: method_a_vocoder_fatchord_0020.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (20/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0020.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_fatchord_0020.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -779,17 +779,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/original_0020.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_fatchord_0020.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0060.wav
+  id: method_a_vocoder_wavernn_fatchord_0010.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (21/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0060.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_fatchord_0010.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -817,17 +817,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0060.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_fatchord_0010.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_original_0067.wav
+  id: method_a_vocoder_waveglow_0017.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (22/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0067.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0017.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -855,17 +855,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/original_0067.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0017.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_torchaudio_0063.wav
+  id: method_a_vocoder_wavernn_nvidia_0063.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (23/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/torchaudio_0063.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0063.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -893,17 +893,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/torchaudio_0063.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_wavernn_nvidia_0063.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_tacotron2waveglow_0003.wav
+  id: method_a_vocoder_waveglow_0053.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (24/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0003.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0053.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -931,17 +931,17 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/tacotron2waveglow_0003.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_waveglow_0053.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
     means how the sample sound like real-human speech and real-human speech is corresponding
     to 5.
-  id: method_a_original_0006.wav
+  id: method_a_vocoder_fatchord_0006.wav
   mustPlayback: true
   mustRate: true
   name: MOS on Naturalness (25/25)
-  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/original_0006.wav
+  reference: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_fatchord_0006.wav
   response:
   - img: configs/resources/images/star_off.png
     imgHigherResponseSelected: configs/resources/images/star_on.png
@@ -969,7 +969,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_9/method_a/original_0006.wav
+    C1: ./configs/resources/samples_stereo_subset/subset_9/method_a/vocoder_fatchord_0006.wav
   type: likert_single_stimulus
 - content: The evaluation was finished.<br>Please enter your <strong>WORKER ID</strong>
     in Amazon mechanical turk. <br>Please click [send Results] button.
