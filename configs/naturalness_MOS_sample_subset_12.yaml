@@ -57,7 +57,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0082.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0082.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -95,7 +95,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/original_0075.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/original_0075.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -133,7 +133,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0060.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0060.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -171,7 +171,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/original_0035.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/original_0035.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -209,7 +209,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0083.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0083.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -247,7 +247,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/original_0097.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/original_0097.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -285,7 +285,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/nvidia2_0003.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/nvidia2_0003.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -323,7 +323,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0024.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0024.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -361,7 +361,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/original_0082.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/original_0082.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -399,7 +399,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0081.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0081.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -437,7 +437,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0004.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0004.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -475,7 +475,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0049.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0049.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -513,7 +513,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0027.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0027.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -551,7 +551,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0058.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0058.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -589,7 +589,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0001.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0001.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -627,7 +627,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0061.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0061.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -665,7 +665,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/nvidia2_0063.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/nvidia2_0063.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -703,7 +703,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0044.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0044.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -741,7 +741,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0041.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0041.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -779,7 +779,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0016.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0016.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -817,7 +817,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0045.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0045.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -855,7 +855,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0077.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0077.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -893,7 +893,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/torchaudio_0070.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/torchaudio_0070.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -931,7 +931,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0098.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0098.wav
   type: likert_single_stimulus
 - content: Listen to a given sample and rate the naturalness with 5-point scale.<br>The
     content of the speech should not effect the score.<br>Note that the naturalness
@@ -969,7 +969,7 @@ pages:
     label: '5: Like human'
     value: 5
   stimuli:
-    C1: ./configs/resources/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0007.wav
+    C1: https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/subset_12/method_a/tacotron2waveglow_0007.wav
   type: likert_single_stimulus
 - content: The evaluation was finished.<br>Please enter your <strong>WORKER ID</strong>
     in Amazon mechanical turk. <br>Please click [send Results] button.

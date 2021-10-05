@@ -55,6 +55,7 @@ def make_page(idx, total_idx, wav_path):
     wav_dir_id = os.path.basename(os.path.dirname(wav_path))
     wav_file_id = os.path.basename(wav_path)
     wav_id = f"{wav_dir_id}_{wav_file_id}"
+    web_wav_path = "https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/" + "/".join(wav_path.split("/")[4:])
     return {
         "type": "likert_single_stimulus",
         "id": wav_id,
@@ -69,7 +70,7 @@ def make_page(idx, total_idx, wav_path):
         "mustPlayback": True,
         "reference": wav_path,
         "stimuli": {
-            "C1": wav_path,
+            "C1": web_wav_path,
         },
         "response": response_template(),
     }
@@ -277,6 +278,7 @@ def main():
         for sample_wav in args.sample_audio_path:
             config["pages"] += [make_volume_page(sample_wav)]
     for idx, wav_path in enumerate(wav_path_list, 1):
+        #https://pytorch.s3.amazonaws.com/models/audio/exp/samples_stereo_subset/
         config["pages"] += [make_page(idx, len(wav_path_list), wav_path)]
 
     if args.similarity_root_wav_dir is not None:

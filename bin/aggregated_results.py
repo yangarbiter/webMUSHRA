@@ -2,9 +2,10 @@ import pandas as pd
 
 
 def main():
+    #df = pd.read_csv("./results/subjective_evalaution/lss.csv.bak")
     df = pd.read_csv("./results/subjective_evalaution/lss.csv")
 
-    competitors = ["original", "torchaudio", "tacotron2waveglow", "nvidia"]
+    competitors = ["original", "torchaudio", "tacotron2waveglow", "nvidia2"]
 
     def get_competitor_name(name):
         for comp in competitors:
